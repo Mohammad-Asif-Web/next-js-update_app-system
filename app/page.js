@@ -31,7 +31,7 @@ export default function Home() {
           {/* <Table /> */}
 
           <Promo />
-          {/* <Contact /> */}
+
           <News />
           <Logo />
           <Footer />
