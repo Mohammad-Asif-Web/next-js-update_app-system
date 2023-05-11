@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Rubik } from "next/font/google";
-import { appWithTranslation } from "next-translate";
-const inter = Rubik({ subsets: ["latin"] });
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",

@@ -15,14 +15,8 @@
 "use client";
 import { Fragment, useState } from "react";
 import { Dialog, Popover, Tab, Transition } from "@headlessui/react";
-import {
-  Bars3Icon,
-  MagnifyingGlassIcon,
-  ShoppingBagIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Style from "./../app/Custom.module.css";
-import ReactFlagsSelect from "react-flags-select";
 const navigation = {
   categories: [
     {
@@ -419,8 +413,6 @@ export default function Example() {
                       alt=""
                       className="block h-auto w-5 flex-shrink-0 ml-3"
                     />
-
-                    {/* <span className="sr-only">, change currency</span> */}
                   </a>
                 </div>
               </div>
