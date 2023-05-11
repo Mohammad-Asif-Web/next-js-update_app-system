@@ -142,10 +142,10 @@ const navigation = {
     },
   ],
   pages: [
-    { name: "Lease Your Property  |", href: "#" },
-    { name: "Popular Area |", href: "#" },
-    { name: "About us |", href: "#" },
-    { name: "PSH for Business |", href: "#" },
+    { name: "Lease Your Property  ", href: "#" },
+    { name: "Popular Area ", href: "#" },
+    { name: "About us ", href: "#" },
+    { name: "PSH for Business ", href: "#" },
     { name: "Promo ", href: "#" },
   ],
 };

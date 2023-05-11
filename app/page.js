@@ -30,7 +30,7 @@ export default function Home() {
         </div>
 
         <div className="mt-12">
-          <Cart />
+          {/* <Cart /> */}
           <Slider />
           <TabMenu />
           <Category />

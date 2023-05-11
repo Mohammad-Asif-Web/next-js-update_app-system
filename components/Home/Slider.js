@@ -1,5 +1,6 @@
 import { Carousel, IconButton } from "@material-tailwind/react";
-import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/react/24/outline";
+
+import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 
 export default function Example() {
   return (
@@ -9,12 +10,19 @@ export default function Example() {
         prevArrow={({ handlePrev }) => (
           <IconButton
             variant="text"
-            color="white"
+            color="black"
             size="lg"
             onClick={handlePrev}
             className="!absolute top-2/4 -translate-y-2/4 left-4"
           >
-            <ArrowLeftIcon strokeWidth={2} className="w-6 h-6" />
+            <ChevronLeftIcon
+              strokeWidth={2}
+              className="w-6 h-6 bg-white"
+              style={{
+                color: "black",
+                borderRadius: "50%",
+              }}
+            />
           </IconButton>
         )}
         nextArrow={({ handleNext }) => (
@@ -25,7 +33,14 @@ export default function Example() {
             onClick={handleNext}
             className="!absolute top-2/4 -translate-y-2/4 !right-4"
           >
-            <ArrowRightIcon strokeWidth={2} className="w-6 h-6" />
+            <ChevronRightIcon
+              strokeWidth={2}
+              className="w-6 h-6 bg-white"
+              style={{
+                color: "black",
+                borderRadius: "50%",
+              }}
+            />
           </IconButton>
         )}
         style={{ height: 600 }}
