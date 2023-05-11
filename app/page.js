@@ -15,7 +15,14 @@ export default function Home() {
     <>
       <main className="flex min-h-screen flex-col items-center justify-between ">
         <div className="z-10 w-full font-mono text-sm ">
-          <div className="fixed w-full  border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit   lg:rounded-xl lg:border lg:bg-gray-200  lg:dark:bg-zinc-800/30">
+          <div
+            className="fixed w-full    bg-gradient-to-b from-zinc-200 pb-6  backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit    lg:bg-gray-200  lg:dark:bg-zinc-800/30"
+            style={{
+              background: "#FFFFFF",
+              color: "black",
+              boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25",
+            }}
+          >
             <Navbar />
           </div>
         </div>
