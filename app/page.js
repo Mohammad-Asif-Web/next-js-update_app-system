@@ -8,6 +8,8 @@ import Logo from "@/components/Home/Logo";
 import News from "@/components/Home/News";
 import Promo from "@/components/Home/Promo";
 import QuickView from "@/components/Home/QuickView";
+import Slider from "@/components/Home/Slider";
+import TabMenu from "@/components/Home/Tab";
 import Navbar from "@/components/Navbar";
 
 export default function Home() {
@@ -29,6 +31,8 @@ export default function Home() {
 
         <div className="mt-12">
           <Cart />
+          <Slider />
+          <TabMenu />
           <Category />
           <Card />
           <Blogs />
