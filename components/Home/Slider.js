@@ -17,11 +17,7 @@ export default function Example() {
           >
             <ChevronLeftIcon
               strokeWidth={2}
-              className="w-6 h-6 bg-white"
-              style={{
-                color: "black",
-                borderRadius: "50%",
-              }}
+              className="w-6 h-6 bg-white rounded-full text-black"
             />
           </IconButton>
         )}
@@ -35,11 +31,7 @@ export default function Example() {
           >
             <ChevronRightIcon
               strokeWidth={2}
-              className="w-6 h-6 bg-white"
-              style={{
-                color: "black",
-                borderRadius: "50%",
-              }}
+              className="w-6 h-6 bg-white rounded-full text-black"
             />
           </IconButton>
         )}
