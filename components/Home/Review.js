@@ -24,7 +24,7 @@ export default function Review() {
                     color="white"
                     className="mb-6 font-medium leading-[1.5]"
                   >
-                    “I've been using this web hosting service for a few months
+                    “I have been using this web hosting service for a few months
                     now and overall it is been fine. The uptime has been good
                     and I have nothad any major issues. The pricing is also
                     reasonable. Nothing particularly stands out as exceptional,
