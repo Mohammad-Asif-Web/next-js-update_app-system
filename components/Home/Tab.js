@@ -8,6 +8,7 @@ import {
 } from "@material-tailwind/react";
 import Category from "./Category";
 import TabCard from "./TabCard";
+import Room from "./Room";
 
 export default function TabMenu() {
   const [activeTab, setActiveTab] = React.useState("html");
@@ -70,7 +71,7 @@ export default function TabMenu() {
         <TabsBody>
           {data.map(({ value, desc }) => (
             <TabPanel key={value} value={value}>
-              <TabCard />
+              <Room />
             </TabPanel>
           ))}
         </TabsBody>

@@ -6,8 +6,13 @@ import Cart from "@/components/Home/Cart";
 import Category from "@/components/Home/Category";
 import Logo from "@/components/Home/Logo";
 import News from "@/components/Home/News";
+import Place from "@/components/Home/Place";
+import Platform from "@/components/Home/Platform";
 import Promo from "@/components/Home/Promo";
+import PromoOffer from "@/components/Home/PromoOffer";
 import QuickView from "@/components/Home/QuickView";
+import Recommended from "@/components/Home/Recommended";
+import Review from "@/components/Home/Review";
 import Slider from "@/components/Home/Slider";
 import TabMenu from "@/components/Home/Tab";
 import Navbar from "@/components/Navbar";
@@ -33,18 +38,24 @@ export default function Home() {
           {/* <Cart /> */}
           <Slider />
           <TabMenu />
-          <Category />
-          <Card />
-          <Blogs />
-          <QuickView />
+          {/* <Category /> */}
+          <PromoOffer />
+          <Recommended />
+          <Place />
+          <Platform />
+          <Review />
+          {/* <Card />
+          <Blogs /> */}
+
+          {/* <QuickView /> */}
 
           {/* <Blog /> */}
           {/* <Table /> */}
 
-          <Promo />
+          {/* <Promo />
 
           <News />
-          <Logo />
+          <Logo /> */}
           <Footer />
         </div>
       </main>
